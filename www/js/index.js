@@ -38,6 +38,7 @@ function updateDisplay() {
     function onResume() {
 		
 	resumed_count++;
+    resumed_count++;
 	updateDisplay();
 	    
 	alert("resume");
